@@ -305,18 +305,18 @@ public:
 int main()
 {
     
-	Vector g, h, p;
-	g.addElement(12);
-	g.addElement(3);
-	h.addElement(10);
-	h.addElement(6);
-	h.addElement(1);
-	h.addElement(5);
-	p = g + h;
-	p = 2 * p;
-	cout << p;
+	Vector a, b, c;
+	a.addElement(15);
+	a.addElement(5);
+	b.addElement(7);
+	b.addElement(5);
+	b.addElement(3);
+	b.addElement(8);
+	c = a + b;
+	c = 2 * c;
+	cout << c;
 	cout << '\n';
-	cout << p.GetCnt();
+	cout << c.GetCnt();
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
